@@ -1,0 +1,82 @@
+.footer {
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #fff;
+  padding-bottom: 60px;
+  margin-left: 80px;
+  padding-top: 60px;
+  padding-right: 102px;
+  min-height: 224px;
+  margin: auto;
+  position: relative;
+}
+
+.footer__columns {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+  position: relative;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+
+.footer__logo {
+  height: 32px;
+  width: 152px;
+  margin: auto;
+}
+
+.footer__list {
+  /* The code below removes the default browser styles for lists */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.footer__column-heading {
+  margin: 0 0;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__column-link {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyrights {
+  position: absolute;
+  left: 80px;
+  bottom: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
